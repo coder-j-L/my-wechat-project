@@ -1,0 +1,50 @@
+<!--pages/shop/shop.wxml-->
+
+<view class="selectbox" style="position:fixed; top:0; left:20px; display: flex;" bindtap="showselect">
+  <view class="select">筛选距离</view>
+  <view class="imagebox">
+    <image class="selectpicture" src="/pages/picture/jian.png"></image>
+  </view>
+</view>
+
+<view class="selectdistance" wx:if="{{ select }}">
+  <view class="select_one" bindtap="select1">2km内</view>
+  <view class="select_one" bindtap="select2">2~8km</view>
+  <view class="select_one" bindtap="select3">大于8km</view>
+</view>
+
+<view class="bigbox">
+
+<view wx:for="{{ orders }}" wx:key= "index">
+
+<view class="thingcotainer">
+  <view class="thingpicturebox">
+    <image class="thingpicture" src="{{ item.images[0] }}"></image>
+  </view>
+  <view class="thingtextcontainer">    
+    <view class="price">￥{{ item.price }}</view>
+    <view class="title">{{ item.title }}</view>
+    <view class="box2">
+      <view>
+        <view class="distance">距您约{{ item.distance }}</view>
+        <view class="time">发布日期:{{ item.time }}</view>
+      </view>
+      <view class="thingdetails" bindtap="todetails" data-index='{{ index }}'>
+        <image class="detailspicture" src="/pages/picture/shopcar.png"></image>
+        <view class="detailstext">详情</view>
+      </view>
+    </view>
+  </view> 
+
+</view> 
+
+</view>
+
+
+
+<cover-view class="moreorderbox">
+  <cover-image class="moreorder" src="/pages/picture/jia.png" bindtap="torelease"></cover-image>
+</cover-view>
+
+</view>
+

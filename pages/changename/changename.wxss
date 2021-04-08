@@ -1,0 +1,13 @@
+/* pages/changename/changename.wxss */
+
+.namebox{
+  margin: 10px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.tipsbox{
+  margin: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #bebebe;
+}

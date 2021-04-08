@@ -1,0 +1,22 @@
+/* pages/searcherror/searcherror.wxss */
+
+.errorbox{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.error{
+  height: 80px;
+  width: 80px;
+}
+
+.text1{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+<!--pages/login/login.wxml-->
+
+<view class="logincontainer">
+  <view class="phonenumberbox">
+    <input class="phonenum" placeholder="请输入手机号"
+    type="number"
+    maxlength="11" 
+    placeholder-style="color: #d0d0d0; font-size: 18px"
+    bindinput="getphonenum"></input>
+    <view class="verification1" hidden="{{ !show }}">获取验证码</view>
+    <view class="verification2" hidden="{{ show }}" bindtap="getverification">获取验证码</view>
+  </view>
+  <view class="verificationcodebox">
+    <input class="verificationcode"
+    type="number"
+    maxlength="4" 
+    placeholder="请输入验证码" placeholder-style="color: #d0d0d0; font-size: 18px"
+    bindinput="verificate"></input>
+  </view>
+  <view class="loginbuttonbox">
+    <view class="loginbutton1" hidden="{{ !isshow }}">登录</view>
+    <view class="loginbutton2" 
+    hidden="{{ isshow }}"
+    bindtap="userlogin">登录</view>
+  </view>
+</view>

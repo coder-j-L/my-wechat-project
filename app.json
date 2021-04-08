@@ -1,0 +1,61 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/map/map",
+    "pages/shop/shop",
+    "pages/person/person",
+    "pages/result/result",
+    "pages/recycle_rubbish/recycle_rubbish",
+    "pages/harmful_rubbish/harmful_rubbish",
+    "pages/kitchen_rubbish/kitchen_rubbish",
+    "pages/other_rubbish/other_rubbish",
+    "pages/pictureResult/pictureResult",
+    "pages/recording/recording",
+    "pages/login/login",
+    "pages/searcherror/searcherror",
+    "pages/changename/changename",
+    "pages/qrcode/qrcode",
+    "pages/details/details",
+    "pages/release/release",
+    "pages/myorders/myorders"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "plugins": {
+    "WechatSI": {
+      "version": "0.3.4",
+      "provider": "wx069ba97219f66d99"
+    }
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor":"#019858",
+    "list": [{
+      "pagePath":"pages/index/index",
+      "iconPath":"pages/picture/主页.png",
+      "text":"指南"
+    },{
+      "pagePath":"pages/map/map",
+      "iconPath":"pages/picture/垃圾桶.png",
+      "text":"垃圾去哪儿"
+    },{
+      "pagePath":"pages/shop/shop",
+      "iconPath":"pages/picture/商店.png",
+      "text":"商店"
+    },{
+      "pagePath":"pages/person/person",
+      "iconPath":"pages/picture/我的.png",
+      "text":"我的"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

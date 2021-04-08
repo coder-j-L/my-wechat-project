@@ -1,0 +1,116 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "pages/logs/logs",
+          "pathName": "pages/logs/logs",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/recycle_rubbish/recycle_rubbish",
+          "pathName": "pages/recycle_rubbish/recycle_rubbish",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/result/result",
+          "pathName": "pages/result/result",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/pictureResult/pictureResult",
+          "pathName": "pages/pictureResult/pictureResult",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/recording/recording",
+          "pathName": "pages/recording/recording",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/person/person",
+          "pathName": "pages/person/person",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/map/map",
+          "pathName": "pages/map/map",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/searcherror/searcherror",
+          "pathName": "pages/searcherror/searcherror",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/changename/changename",
+          "pathName": "pages/changename/changename",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/shop/shop",
+          "pathName": "pages/shop/shop",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/qrcode/qrcode",
+          "pathName": "pages/qrcode/qrcode",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/release/release",
+          "pathName": "pages/release/release",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/details/details",
+          "pathName": "pages/details/details",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/myorders/myorders",
+          "pathName": "pages/myorders/myorders",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/orderserror/orderserror",
+          "pathName": "pages/orderserror/orderserror",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

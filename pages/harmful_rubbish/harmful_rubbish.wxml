@@ -1,0 +1,20 @@
+<!--pages/harmful_rubbish/harmful_rubbish.wxml-->
+
+<view class="rubcontainer">
+  <view class="rubbishbox" wx:for="{{ harmful }}" wx:key="key">
+    <view>
+      <image class="rubbishpicture" src="{{ item.picture }}"></image>    
+    </view>
+    <view class="rubnamebox">
+      <view class="rubname">{{ item.name }}</view>
+    </view>
+  </view>
+  <view class="specialbox">
+    <view>
+      <image class="specialpicture" src="/pages/harmful/guoqiyaopinjiqibaozhuang.png"></image>    
+    </view>
+    <view class="specialrubnamebox">
+      <view class="rubname">国企药品及其包装</view>
+    </view>
+  </view>
+</view>

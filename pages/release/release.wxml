@@ -1,0 +1,37 @@
+<!--pages/release/release.wxml-->
+
+<view class="box1">
+  <button class="releasebutton" type="primary" size="mini" bindtap="release">发布</button>
+</view>
+
+<view class="text1">订单名称:</view>
+<view class="ordernamebox">
+  <input class="orderbox" placeholder="请输入订单名称" bindblur="gettitle"></input>
+</view>
+
+<view class="text2">订单价格(元):</view>
+<view class="ordernamebox">
+  <input class="orderbox" placeholder="请输入订单价格" bindblur="getprice"></input>
+</view>
+
+<view class="text2">订单描述:</view>
+<view class="orderdetails">
+  <textarea class="ordertext" placeholder="请描述你的订单" maxlength="500" bindblur="getdescription"></textarea>
+</view>
+
+<view class="text2">联系方式：{{ phoneNumber }}</view>
+<view class="text3">(如有其他联系方式请在描述中添加)</view>
+
+<view class="text2">添加图片：</view>
+<view class="picturecontainer">
+  <view class="picturebox1" hidden="{{ show }}" wx:for="{{ imageUrl }}" wx:key="index">
+    <view>
+      <image class="delete" src="/pages/picture/cha.png" bindtap="deletepicture" data-index="{{ index }}"></image>
+      <image class="picture1" src="{{ item }}" bindtap="previewImg" data-index="{{ index }}"></image>
+    </view>
+
+  </view> 
+  <view class="picturebox2" hidden="{{ !isshow }}" bindtap="chooseimage">
+    <image class="picture" src="/pages/picture/uploadpicture.png"></image>
+  </view> 
+</view>

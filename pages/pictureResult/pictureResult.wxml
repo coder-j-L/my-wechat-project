@@ -1,0 +1,17 @@
+<!--pages/pictureResult/pictureResult.wxml-->
+
+<view class="bigcontainer">
+  <view class="picturebox">
+    <image class="searchpicture" src="{{ imageurl }}"></image>
+  </view>
+</view>  
+
+<view class="text">搜索结果</view>
+
+<view class="resultcontainer" wx:for="{{ resultlist }}" wx:key = "index">
+  <view class="resultbox" bindtap="toresult" data-item="{{ item.keyword }}">
+    <view class="result">{{ item.keyword }}(可能性{{ item.score }}%)</view>
+    <view class="to">></view>
+  </view>    
+</view>
+

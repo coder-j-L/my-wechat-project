@@ -1,0 +1,28 @@
+<!--pages/myorders/myorders.wxml-->
+
+<view wx:for="{{ myorders }}" wx:key='index' hidden="{{ show }}">
+
+<view class="box" data-index="{{ index }}" bindtap="todetails">
+  <view class="orderpicture">
+    <image class="picture" src="{{ item.images[0] }}"></image>
+  </view>
+  <view class="ordertext">
+    <view class="box4">
+      <view class="ordertitle">{{ item.title }}</view>
+      <view class="orderstate" wx:if="{{ item.dismiss == true }}">正在进行中</view>
+      <view class="orderstate" wx:if="{{ item.dismiss == false }}">已完成</view>
+    </view>
+       
+    <view class=" box2"> 
+      <view class="box3">
+        <view class="orderprice">￥{{ item.price }}</view>
+        <view class="ordertime">{{ item.time }}</view>
+      </view>
+      <view class="complete" catchtap="completeorder" data-index="{{ index }}">完成</view>
+    </view>
+  </view>
+</view>
+
+</view>
+
+<view class="error" hidden="{{ !show }}">这里空空如也。。。</view>

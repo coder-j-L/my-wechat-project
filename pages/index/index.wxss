@@ -1,0 +1,180 @@
+/**index.wxss**/
+
+.container1{
+  height: 45px;
+  width: 100%;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbox{
+  height: 30px;
+  background: white;
+  width: 97%;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.searchiconbox{
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchicon{
+  height: 20px;
+  width: 20px;
+}
+
+.searchinputbox{
+  height: 30px;
+  width: 100%;
+}
+
+.searchinput{
+  height: 30px;
+}
+
+.chabox{
+  height: 30px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3px;
+}
+
+.cha{
+  height: 15px;
+  width: 15px;
+}
+
+.swiperbox{
+  height: 200px;
+}
+
+.newspicture{
+  height: 200px;
+}
+
+.lisa{
+  width: 100%;
+}
+
+.wayofsearch{
+  height: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.way1{
+  height: 80px;
+  width: 25%;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0);
+}
+
+.way2{
+  width: 25%;
+  height: 80px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0);
+}
+
+.way3{
+  width: 25%;
+  height: 80px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0);
+}
+
+.waypicture{
+  height: 80px;
+  width: 90%;
+}
+
+.rubbishbox1{
+  height: 80px;
+  background:#2894ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20rpx;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.rubbishbox2{
+  margin-top: 10px;
+  height: 80px;
+  background:#ff5151;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20rpx;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.rubbishbox3{
+  margin-top: 10px;
+  height: 80px;
+  background:#73bf00;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20rpx;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.rubbishbox4{
+  margin-top: 10px;
+  height: 80px;
+  background:#eac100;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20rpx;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.rubbish{
+  height: 60px;
+  width: 60px;
+  margin-left: 10px;
+}
+
+.rubbishnamebox{
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rubbishname{
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+.example{
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}

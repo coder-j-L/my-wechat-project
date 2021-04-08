@@ -1,0 +1,90 @@
+/* pages/myorders/myorders.wxss */
+
+.box{
+  display: flex;
+  height: 120px;
+}
+
+.orderpicture{
+  height: 120px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture{
+  height: 115px;
+  width: 115px;
+}
+
+.ordertext{
+  width: 100%;
+  height: 120px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.ordertitle{
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 8px;
+  color: #6c6c6c;
+}
+
+.orderstate{
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  color: #6c6c6c;
+}
+
+.box2{
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+.box3{
+  display: flex;
+  flex-direction: column;
+}
+
+.box4{
+  display: flex;
+  justify-content: space-between;
+}
+
+.orderprice{
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.ordertime{
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.complete{
+  z-index: 1;
+  height: 30px;
+  width: 45px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  background: #01b468;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+.error{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 20px;
+}

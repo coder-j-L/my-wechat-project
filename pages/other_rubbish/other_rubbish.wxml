@@ -1,0 +1,12 @@
+<!--pages/other_rubbish/other_rubbish.wxml-->
+
+<view class="rubcontainer">
+  <view class="rubbishbox" wx:for="{{ other }}" wx:key="key">
+    <view>
+      <image class="rubbishpicture" src="{{ item.picture }}"></image>    
+    </view>
+    <view class="rubnamebox">
+      <view class="rubname">{{ item.name }}</view>
+    </view>
+  </view>
+</view>

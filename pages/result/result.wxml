@@ -1,0 +1,25 @@
+<!--pages/result/result.wxml-->
+
+<view wx:for="{{ searchresult }}" wx:key="key">
+
+<view class="resultcontainer">
+  <view class="namebox">
+    <view class="name">{{ item.name }}</view>
+  </view>
+  <view class="resultbox">
+    <view class="resulticonbox">
+      <image class="resulticon" src="{{ item.rubbishiconpath }}"></image>
+      <text class="resulttext">{{ item.type }}</text>
+    </view>
+  </view>
+  <view class="rubbishcontain">
+  {{ item.explain }}
+  </view>
+  <view class="tipheader">投放建议:</view>
+  <view class="tips">
+    {{ item.tip }}
+  </view>
+</view>
+
+</view>
+

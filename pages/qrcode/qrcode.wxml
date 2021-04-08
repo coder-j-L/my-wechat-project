@@ -1,0 +1,12 @@
+<!--pages/qrcode/qrcode.wxml-->
+
+<view class="qrcodebox">
+  <view class="box1">{{ name }}</view>
+  <view class="box2">
+    <qrcode class="iblock" value="id = {{ id }}" width="440"></qrcode>
+  </view>
+  
+</view>
+
+
+ 

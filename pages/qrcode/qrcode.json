@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "用户二维码",
+  "usingComponents": {
+    "qrcode": "../../components/qrcode/index"
+  }
+} 

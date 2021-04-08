@@ -1,0 +1,23 @@
+<!--pages/recording/recording.wxml-->
+ 
+  <view class="recognitionbox">
+    <view class="recognition">{{isTouch == true ? "我正在听..." : recordText }}</view>
+    <view class="chabox" hidden="{{ !show }}" bindtap="cancel">
+      <image class="cha" src="/pages/picture/cha.png"></image>
+    </view>
+    <view class="searchbuttonbox" bindtap="search">
+      <image class="searchbutton" src="/pages/picture/search.png"></image>
+    </view>
+  </view>
+
+ 
+
+ 
+
+<view class="akk">
+  <view class="recordiconbox" bindtouchstart="touchStart" bindtouchend="touchEnd">
+    <image class="recordicon" src="/pages/picture/record.png"></image>  
+  </view>
+  <view class="recordtext" wx:if="{{ recordState == false }}">按住录音</view>
+  <view class="recordtext" wx:else>松开结束</view>
+</view>

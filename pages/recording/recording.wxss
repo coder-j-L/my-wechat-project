@@ -1,0 +1,74 @@
+/* pages/recording/recording.wxss */
+
+page{
+  background: #f0f0f0;
+}
+
+.recognitionbox{
+  height: 50px;
+  margin: 10px;
+  background: white;
+  margin-left: 10px;  
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.recognition{
+  height: 50px;
+  width: 85%;
+  line-height: 50px;
+  padding-left: 10px;
+  color: #7b7b7b;
+}
+
+.chabox{
+  width: 20px;
+  height: 50px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cha{
+  height: 20px;
+  width: 20px;
+}
+
+.searchbuttonbox{
+  height: 50px;
+  width: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbutton{
+  height: 40px;
+  width: 40px;
+}
+
+.akk{
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recordicon{
+  height: 100px;
+  width: 100px;
+}
+
+.recordtext{
+  font-weight: bold;
+}

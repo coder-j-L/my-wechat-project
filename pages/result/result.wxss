@@ -1,0 +1,68 @@
+/* pages/result/result.wxss */
+
+.resultcontainer{
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.namebox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.name{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.resultbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resulticonbox{
+  margin-top: 30px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resulticon{
+  height: 70px;
+  width: 70px;
+}
+
+.resulttext{
+  font-weight: bold;
+}
+
+.rubbishcontain{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #6c6c6c;
+}
+
+.tipheader{
+  font-weight: bold;
+}
+
+.tips{
+  font-weight: bold;
+  color: #6c6c6c;
+  margin-bottom: 10px;
+}

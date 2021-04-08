@@ -1,0 +1,8 @@
+<!--pages/changename/changename.wxml-->
+
+<view>
+  <view class="namebox">
+    <input value="{{ username }}" bindconfirm="changename"></input>
+  </view>
+  <view class="tipsbox">请设置你喜欢的昵称吧。</view>
+</view>

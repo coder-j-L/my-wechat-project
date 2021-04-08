@@ -1,0 +1,101 @@
+/* pages/release/release.wxss */
+
+.box1{
+  height: 40px;
+}
+
+.releasebutton{
+  position: fixed;
+  right: 5px;
+  top: 5px;
+}
+
+.text1{
+  border-top: 1px solid green;
+  padding-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.text2{
+  padding-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;  
+}
+
+.text3{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;  
+}
+
+.ordernamebox{
+  border: 1px solid #d0d0d0;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.orderbox{
+  height: 30px;
+  padding-left: 5px;
+}
+
+.orderdetails{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.ordertext{
+  width: 100%;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.picturecontainer{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.picturebox1{
+  height: 110px;
+  width: 33.33333333%;
+}
+
+.delete{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+
+.picture1{
+  height: 110px;
+  width: 110px;
+}
+
+.picturebox2{
+  height: 110px;
+  width: 33.33333333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f0f0;
+}
+
+.picture{
+  height: 40px;
+  width: 40px;
+}

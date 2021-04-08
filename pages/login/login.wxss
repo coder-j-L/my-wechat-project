@@ -1,0 +1,84 @@
+/* pages/login/login.wxss */
+
+.logincontainer{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.phonenumberbox{
+  width: 100%;
+  height: 50px;
+  margin-top: 40px;
+  border-bottom: 1px solid #d0d0d0;
+  display: flex;
+  flex-direction: row;
+}
+
+.phonenum{
+  height: 50px;
+  width: 70%;
+}
+
+.verification1{
+  height: 50px;
+  width: 30%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #d0d0d0;
+}
+
+.verification2
+{
+  height: 50px;
+  width: 30%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #01b468;
+}
+
+.verificationcodebox{
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.verificationcode{
+  height: 50px;
+  width: 100%;
+}
+
+.loginbuttonbox{
+  width: 100%;
+  height: 40px;
+  background: #e0e0e0;
+  border-radius: 5px;
+}
+
+.loginbutton1{
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #7b7b7b;
+  font-weight: 600;
+}
+
+.loginbutton2{
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;  
+  font-weight: 600;
+  background: #01b468;
+}

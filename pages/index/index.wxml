@@ -1,0 +1,84 @@
+<!--index.wxml-->
+
+<view class="container1">
+  <view class="searchbox">
+    <view class="searchiconbox"><image class="searchicon" src="/pages/picture/search.png"></image></view>
+    <view class="searchinputbox">
+      <input class="searchinput"
+        bindconfirm="searchrubbish"
+        bindinput="cancelsearch" 
+        confirm-type="search"
+        value="{{ input }}">
+      </input>
+    </view>
+    <view class="chabox" hidden="{{ appear }}" bindtap="cancel">
+      <image class="cha" src="/pages/picture/cha.png"></image>
+    </view>
+  </view>
+</view>
+
+<view class="swiperbox">
+  <swiper class="newspicture" autoplay="true" circular="true">    
+    <swiper-item>
+      <image class="lisa" src="/pages/picture/xuanchuantu3.png"></image>
+    </swiper-item>    
+    <swiper-item>
+      <image class="lisa" src="/pages/picture/xuanchuantu2.png"></image>
+    </swiper-item>
+  </swiper>
+</view>
+ 
+<view class="wayofsearch">
+  <button class="way1" bindtap="tookpicturesearch">
+    <image class="waypicture" src="/pages/picture/photo_recognize.png"></image>
+  </button>
+  <button class="way2" bindtap="usepicturesearch">
+    <image class="waypicture" src="/pages/picture/pic_recognize.png"></image>
+  </button>    
+  <button class="way3" bindtap="userecording">
+    <image class="waypicture" src="/pages/picture/voice_recognize.png"></image>
+  </button>  
+  <button class="way3" bindtap="seeqrcode">
+    <image class="waypicture" src="/pages/picture/Group4.png"></image>
+  </button>  
+</view>
+
+<view class="rubbishbox1" bindtap="Torecycle">
+  <view>
+    <image class="rubbish" src="/pages/picture/recycle_icon.png"></image>
+  </view>
+  <view class="rubbishnamebox">
+    <view class="rubbishname">可回收垃圾</view>
+    <view class="example">纸类</view>
+  </view>
+</view>
+
+<view class="rubbishbox2" bindtap="Toharmful">
+  <view>
+    <image class="rubbish" src="/pages/picture/harmful_icon.png"></image>
+  </view>
+  <view class="rubbishnamebox">
+    <view class="rubbishname">有害垃圾</view>
+    <view class="example">水银温度计</view>
+  </view>
+</view>
+
+<view class="rubbishbox3" bindtap="Tokitchen">
+  <view>
+    <image class="rubbish" src="/pages/picture/kitchen_icon.png"></image>
+  </view>
+  <view class="rubbishnamebox">
+    <view class="rubbishname">厨余垃圾</view>
+    <view class="example">瓜皮果核</view>
+  </view>
+</view>
+
+<view class="rubbishbox4" bindtap="Toother">
+  <view>
+    <image class="rubbish" src="/pages/picture/other_icon.png"></image>
+  </view>
+  <view class="rubbishnamebox">
+    <view class="rubbishname">其他垃圾</view>
+    <view class="example">卫生纸</view>
+  </view>
+</view>

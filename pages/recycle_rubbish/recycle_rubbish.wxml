@@ -1,0 +1,12 @@
+<!--pages/recycle_rubbish/recycle_rubbish.wxml-->
+
+<view class="rubcontainer">
+  <view class="rubbishbox" wx:for="{{ recycle }}" wx:key="key">
+    <view>
+      <image class="rubbishpicture" src="{{ item.picture }}"></image>    
+    </view>
+    <view class="rubnamebox">
+      <view class="rubname">{{ item.name }}</view>
+    </view>
+  </view>
+</view>

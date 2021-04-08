@@ -1,0 +1,38 @@
+<!--pages/person/person.wxml-->
+
+<view class="personbox">
+  <view class="user-avatarbox">
+
+    <image class="user-avatar" src="" bindtap="changeicon" src="{{ headsrc }}"></image>
+
+    <view class="informationbox" hidden="{{ !login }}">
+      <view class="userinfo"  bindtap="changename">{{ username }}</view>
+      <view class="phonenum">手机号码：{{ phoneNumber }}</view>
+    </view>
+
+    <view class="qrcodebox" hidden="{{ !login }}">
+      <image class="qrcode" src="/pages/picture/QRcode.png" bindtap="toqrcode"></image>
+    </view>
+
+    <view class="peoplelogin" hidden="{{ !islogin }}" bindtap="tologin">请登录</view>
+
+  </view> 
+
+</view>
+ 
+<view class="bar" bindtap="logout">
+  <view class="smallbox">
+    <image class="icon" src="/pages/picture/tuideng.png"></image>
+    <view class="score">退出登录</view>
+  </view>
+  <view class="to">></view>
+</view>
+
+<view class="bar2"  bindtap="tomyorders">
+  <view class="smallbox">
+    <image class="icon" src="/pages/picture/myorder.png"></image>
+    <view class="score">我的订单</view>
+  </view>
+  <view class="to">></view>
+</view>
+

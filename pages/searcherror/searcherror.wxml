@@ -1,0 +1,7 @@
+<!--pages/searcherror/searcherror.wxml-->
+
+<view class="errorbox">
+  <image class="error" src="/pages/picture/error.png"></image>
+</view>
+
+<view class="text1">这好像不是个垃圾。。</view>
